@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1da1e1b317f14d842b334450ab3d90ec",
+    "content-hash": "5bd2d5980ff88938d5a94aa1ce3566a3",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -296,6 +296,56 @@
             "time": "2020-02-14T07:44:31+00:00"
         },
         {
+            "name": "craftcms/ckeditor",
+            "version": "1.0.0-beta.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/ckeditor/zipball/185f6064cc135d717cf7b43c93aff2063ce399f1",
+                "reference": "185f6064cc135d717cf7b43c93aff2063ce399f1",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "CKEditor",
+                "handle": "ckeditor",
+                "changelogUrl": "https://raw.githubusercontent.com/craftcms/ckeditor/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/craftcms/ckeditor/archive/master.zip"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\ckeditor\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Edit rich text content in Craft CMS using CKEditor.",
+            "keywords": [
+                "ckeditor",
+                "cms",
+                "craftcms",
+                "html",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/ckeditor/issues?state=open",
+                "source": "https://github.com/craftcms/ckeditor",
+                "docs": "https://github.com/craftcms/ckeditor",
+                "rss": "https://github.com/craftcms/ckeditor/commits/master.atom"
+            },
+            "time": "2018-01-15T18:06:22+00:00"
+        },
+        {
             "name": "craftcms/cms",
             "version": "3.4.9",
             "dist": {
@@ -386,58 +436,6 @@
                 "yii2"
             ],
             "time": "2020-02-28T19:59:36+00:00"
-        },
-        {
-            "name": "craftcms/contact-form",
-            "version": "2.2.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/contact-form/zipball/680986ad8742b3e402d0f56756e3eb85c33d0b3d",
-                "reference": "680986ad8742b3e402d0f56756e3eb85c33d0b3d",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0-RC11"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Contact Form",
-                "handle": "contact-form",
-                "documentationUrl": "https://github.com/craftcms/contact-form/blob/v2/README.md",
-                "components": {
-                    "mailer": "craft\\contactform\\Mailer"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "craft\\contactform\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pixel & Tonic",
-                    "homepage": "https://pixelandtonic.com/"
-                }
-            ],
-            "description": "Add a simple contact form to your Craft CMS site",
-            "keywords": [
-                "cms",
-                "contact",
-                "craftcms",
-                "form",
-                "yii2"
-            ],
-            "support": {
-                "email": "support@craftcms.com",
-                "issues": "https://github.com/craftcms/contact-form/issues?state=open",
-                "source": "https://github.com/craftcms/contact-form",
-                "docs": "https://github.com/craftcms/contact-form/blob/v2/README.md",
-                "rss": "https://github.com/craftcms/contact-form/commits/v2.atom"
-            },
-            "time": "2019-12-17T23:54:03+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -831,6 +829,86 @@
                 "html"
             ],
             "time": "2019-10-28T03:44:26+00:00"
+        },
+        {
+            "name": "froala/craft-froala-wysiwyg",
+            "version": "3.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/froala/Craft-3-Froala-WYSIWYG/zipball/b6f4bb444ccfd69de3ff0fab1941730177a1608b",
+                "reference": "b6f4bb444ccfd69de3ff0fab1941730177a1608b",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1",
+                "froala/wysiwyg-editor": "3.1.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Froala WYSIWYG Editor",
+                "handle": "froala-editor",
+                "hasSettings": true,
+                "developer": "Bert Oost",
+                "developerUrl": "https://bertoost.com",
+                "documentationUrl": "https://github.com/froala/Craft-3-Froala-WYSIWYG/blob/master/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "froala\\craftfroalawysiwyg\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Craft 3 CMS plugin for Froala WYSIWYG HTML Rich Text Editor.",
+            "homepage": "https://github.com/froala/Craft-3-Froala-WYSIWYG",
+            "keywords": [
+                "craft",
+                "craftcms",
+                "craftcms plugin",
+                "froala",
+                "plugin",
+                "wysiwyg"
+            ],
+            "time": "2020-01-28T10:55:06+00:00"
+        },
+        {
+            "name": "froala/wysiwyg-editor",
+            "version": "v3.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/froala/wysiwyg-editor/zipball/226a8fcad84db0a79c274ad55599970239a821c4",
+                "reference": "226a8fcad84db0a79c274ad55599970239a821c4",
+                "shasum": ""
+            },
+            "type": "component",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Froala Labs",
+                    "email": "support@froala.com"
+                }
+            ],
+            "description": "A beautiful jQuery WYSIWYG HTML rich text editor. High performance and modern design make it easy to use for developers and loved by users.",
+            "homepage": "https://www.froala.com/wysiwyg-editor",
+            "keywords": [
+                "editor",
+                "froala",
+                "froala-editor",
+                "froala-wysiwyg",
+                "html",
+                "javascript",
+                "jquery",
+                "jquery-plugin",
+                "rich editor",
+                "rich text editor",
+                "rte",
+                "text",
+                "wysiwyg"
+            ],
+            "time": "2020-01-13T14:14:47+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4552,7 +4630,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "craftcms/ckeditor": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
